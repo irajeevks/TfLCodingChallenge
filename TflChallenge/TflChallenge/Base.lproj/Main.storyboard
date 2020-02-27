@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y2g-VH-k1Z">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="U1k-LF-sKq">
+            <objects>
+                <viewController id="Y2g-VH-k1Z" customClass="ViewController" customModule="TflChallenge" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Nj5-I3-a5e">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o26-Zb-QMV">
+                                <rect key="frame" x="86" y="139" width="242" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="Ry3-sb-Aws"/>
+                                    <constraint firstAttribute="width" constant="242" id="c3c-7g-22K"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aJR-e6-nMe">
+                                <rect key="frame" x="35.5" y="179" width="343" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="JLP-xz-XCl"/>
+                                    <constraint firstAttribute="height" constant="60" id="xEz-Sz-7lD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Gc6-dg-SJG">
+                                <rect key="frame" x="197" y="114" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="7sI-va-fqV"/>
+                                    <constraint firstAttribute="height" constant="20" id="WFd-Yc-4ts"/>
+                                </constraints>
+                            </activityIndicatorView>
+                            <view alpha="0.75" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a8l-37-YyO">
+                                <rect key="frame" x="107.5" y="139" width="199" height="363"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Road Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s5W-ei-pJP">
+                                        <rect key="frame" x="55" y="17" width="89" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Road Status Description" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OeS-cd-jiK">
+                                        <rect key="frame" x="6" y="238" width="185" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Road Status" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qb1-VW-aHC">
+                                        <rect key="frame" x="53" y="128" width="93" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="199" id="RoS-hC-Nh2"/>
+                                    <constraint firstAttribute="height" constant="363" id="ygX-SH-Cs7"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b2w-MM-Aba">
+                                <rect key="frame" x="35.5" y="290" width="343" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="7zW-Kr-jdd"/>
+                                    <constraint firstAttribute="width" constant="343" id="oqM-At-bFH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <searchBar contentMode="redraw" searchBarStyle="prominent" text="" placeholder="road name..." translatesAutoresizingMaskIntoConstraints="NO" id="P2b-rW-2Ju">
+                                <rect key="frame" x="0.0" y="44" width="414" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="375-Kj-7rp"/>
+                                </constraints>
+                                <textInputTraits key="textInputTraits"/>
+                                <scopeButtonTitles>
+                                    <string>Title</string>
+                                    <string>Title</string>
+                                </scopeButtonTitles>
+                            </searchBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TjN-lB-fRf">
+                                <rect key="frame" x="35.5" y="408" width="343" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="EeJ-KJ-aZX"/>
+                                    <constraint firstAttribute="height" constant="60" id="bUf-nW-lRZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="aJR-e6-nMe" firstAttribute="top" secondItem="o26-Zb-QMV" secondAttribute="bottom" constant="14" id="1Xt-R1-CcM"/>
+                            <constraint firstItem="P2b-rW-2Ju" firstAttribute="leading" secondItem="9Go-JS-3GA" secondAttribute="leading" id="2x1-ZW-neO"/>
+                            <constraint firstItem="P2b-rW-2Ju" firstAttribute="trailing" secondItem="9Go-JS-3GA" secondAttribute="trailing" id="3Z3-95-WCn"/>
+                            <constraint firstItem="b2w-MM-Aba" firstAttribute="centerX" secondItem="Nj5-I3-a5e" secondAttribute="centerX" id="NDf-JM-GLk"/>
+                            <constraint firstItem="P2b-rW-2Ju" firstAttribute="top" secondItem="9Go-JS-3GA" secondAttribute="top" id="NhJ-ZT-X7z"/>
+                            <constraint firstItem="a8l-37-YyO" firstAttribute="top" secondItem="Gc6-dg-SJG" secondAttribute="bottom" constant="5" id="OQb-WN-tQS"/>
+                            <constraint firstItem="o26-Zb-QMV" firstAttribute="centerX" secondItem="Nj5-I3-a5e" secondAttribute="centerX" id="Or8-sA-cdy"/>
+                            <constraint firstItem="aJR-e6-nMe" firstAttribute="centerX" secondItem="Nj5-I3-a5e" secondAttribute="centerX" id="cAH-4d-xiA"/>
+                            <constraint firstItem="b2w-MM-Aba" firstAttribute="top" secondItem="aJR-e6-nMe" secondAttribute="bottom" constant="51" id="cnR-Qw-w2O"/>
+                            <constraint firstItem="Gc6-dg-SJG" firstAttribute="top" secondItem="P2b-rW-2Ju" secondAttribute="bottom" constant="14" id="g3j-Ij-oon"/>
+                            <constraint firstItem="a8l-37-YyO" firstAttribute="centerX" secondItem="Nj5-I3-a5e" secondAttribute="centerX" id="gaM-mC-GlV"/>
+                            <constraint firstItem="Gc6-dg-SJG" firstAttribute="centerX" secondItem="Nj5-I3-a5e" secondAttribute="centerX" id="hlK-pc-mdA"/>
+                            <constraint firstItem="o26-Zb-QMV" firstAttribute="top" secondItem="Gc6-dg-SJG" secondAttribute="bottom" constant="5" id="vCZ-Br-4wP"/>
+                            <constraint firstItem="TjN-lB-fRf" firstAttribute="centerX" secondItem="Nj5-I3-a5e" secondAttribute="centerX" id="xwN-3p-fNv"/>
+                            <constraint firstItem="TjN-lB-fRf" firstAttribute="top" secondItem="b2w-MM-Aba" secondAttribute="bottom" constant="58" id="zSG-Fb-GvH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="9Go-JS-3GA"/>
+                    </view>
+                    <connections>
+                        <outlet property="activityIndicator" destination="Gc6-dg-SJG" id="hVf-kL-kCn"/>
+                        <outlet property="errorLabel" destination="o26-Zb-QMV" id="yOF-7F-WGH"/>
+                        <outlet property="roadDisplayNameLabel" destination="aJR-e6-nMe" id="mSn-6j-b5R"/>
+                        <outlet property="roadStatusDescriptionLabel" destination="TjN-lB-fRf" id="d8W-tN-Mgu"/>
+                        <outlet property="roadStatusLabel" destination="b2w-MM-Aba" id="a77-Ql-059"/>
+                        <outlet property="searchBar" destination="P2b-rW-2Ju" id="MCE-Ap-9LO"/>
+                        <outlet property="titlesView" destination="a8l-37-YyO" id="dul-LS-eA2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kpX-3o-oEG" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="133.59999999999999" y="121.88905547226388"/>
+        </scene>
+    </scenes>
+</document>
